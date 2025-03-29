@@ -32,6 +32,6 @@
 		}
 	},
 	"remoteUser": "vscode",
-	"postStartCommand": "go install github.com/stefanlogue/meteor@latest"
+	"postStartCommand": "go install github.com/stefanlogue/meteor@latest && go install github.com/spf13/cobra-cli@latest"
 	
 }
